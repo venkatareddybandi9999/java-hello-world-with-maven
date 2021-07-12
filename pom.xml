@@ -34,6 +34,14 @@
            </dependency>
        </dependencies>
        <!-- end::joda[] -->
+	
+	
+     <distributionManagement>
+   	<snapshotRepository>
+      	<id>nexus-snapshots</id>
+      	<url>http://13.233.246.190:8081/repository/flipkart-snapshot/</url>
+   	</snapshotRepository>
+     </distributionManagement>
        
     <build>
         <plugins>
